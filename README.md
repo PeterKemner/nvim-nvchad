@@ -1,3 +1,6 @@
 # nvim.
 
-Rename the folder after cloning to "custom".
+Clone nvChad.
+Clone this git into lua map.
+Delete empty custom folder.
+Rename this git folder after cloning to "custom".
