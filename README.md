@@ -1,3 +1,3 @@
 # nvim.
 
-Rename the folder afther cloning to "nvim".
+Rename the folder after cloning to "custom".
