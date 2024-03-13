@@ -1,6 +1,5 @@
 # nvim.
 How to use this config:
-
 1. Clone nvChad.
 <br>
 2. Go to C:\Users\USER_NAME\AppData\Local\nvim\lua
