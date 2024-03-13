@@ -26,8 +26,8 @@ vim.api.nvim_set_keymap('i', '<S-Tab>', '<C-d>', {noremap = true, silent = true}
 
 vim.api.nvim_set_keymap('n', '<leader>t', ':vsplit | terminal<CR>', {noremap = true})
 vim.cmd('autocmd TermOpen * setlocal buftype=terminal')
-vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>:bd!<CR>', {noremap = true})
-vim.api.nvim_set_keymap('n', '<leader>w', ':bd!<CR>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<leader>q', '<Cmd>bd!<CR>', {noremap = true})
+vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n><CR>', {noremap = true})
 
 vim.api.nvim_set_keymap('i', '<C-f>', '<C-o>0', {noremap = true})
 
