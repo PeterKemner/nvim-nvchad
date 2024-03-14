@@ -30,4 +30,3 @@ vim.api.nvim_set_keymap('n', '<leader>q', '<Cmd>bd!<CR>', {noremap = true})
 vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n><CR>', {noremap = true})
 
 vim.api.nvim_set_keymap('i', '<C-f>', '<C-o>0', {noremap = true})
-
