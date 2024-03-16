@@ -38,7 +38,7 @@ local plugins = {
   },
   {
     "jose-elias-alvarez/null-ls.nvim",
-    -- ft = {"python"},
+    ft = {"python", "cpp"},
     opts = function()
       return require "custom.configs.null-ls"
     end,
@@ -54,6 +54,7 @@ local plugins = {
         "pyright",
         "clangd",
         "clang-format",
+        "codelldb",
       },
     },
   },
